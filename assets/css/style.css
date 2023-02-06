@@ -16,13 +16,9 @@ body{
     font-family: 'Unbounded', cursive;
 }
 
-.container_header {
-    height: 300px;
-    background-color: var(--tb-header);
-    display: flex;
-}
 
-/* #region link Header */
+
+/* #region Header */
 .link_header{
     height: 50px;
     background-color: var(--tb-header);
@@ -58,15 +54,47 @@ body{
     height: 100%;
     justify-content: end;
 }
-/* #endregion link Header */
+
+.container_header {
+    height: 250px;
+    background-color: var(--tb-header);
+    display: flex;
+}
 
 .text_header {
     margin: auto;
-    height: 250px;  
-    width: 55%;
+    height: 200px;  
+    width: 50%;
     background-color: gray;
     border-radius: 10px;
 }
 
+/* #endregion Header */
 
 
+.section_banner1 {
+    height: 300px;
+    background-color: orange;
+    display: flex;
+}
+
+.container_banner1{
+    margin: auto;
+    height: 200px;  
+    width: 55%;
+    background-color: aqua;
+    display: flex;
+
+}
+
+.image_banner1{
+    width: 65%;
+    height: 100%;
+    background-color: beige;
+}
+
+.text_banner1{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(62, 17, 104);
+}
