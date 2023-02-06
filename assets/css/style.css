@@ -71,7 +71,7 @@ body{
 
 /* #endregion Header */
 
-/*  */
+/* #region section banner */
 .section_banner {
     height: 300px;
     background-color: orange;
@@ -98,3 +98,21 @@ body{
     height: 100%;
     background-color: rgb(62, 17, 104);
 }
+/* #endregion section banner */
+
+/* #region section main end */
+.main_end{
+    background-color: antiquewhite;
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+.container-main_end{
+    margin: auto;
+    background-color: #3161e0;
+    height: 450px;  
+    width: 55%;
+}
+/* #endregion section main end */
+
