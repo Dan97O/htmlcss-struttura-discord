@@ -71,14 +71,14 @@ body{
 
 /* #endregion Header */
 
-
-.section_banner1 {
+/*  */
+.section_banner {
     height: 300px;
     background-color: orange;
     display: flex;
 }
 
-.container_banner1{
+.container_banner{
     margin: auto;
     height: 200px;  
     width: 55%;
@@ -87,13 +87,13 @@ body{
 
 }
 
-.image_banner1{
+.image_banner{
     width: 65%;
     height: 100%;
     background-color: beige;
 }
 
-.text_banner1{
+.text_banner{
     width: 35%;
     height: 100%;
     background-color: rgb(62, 17, 104);
