@@ -76,14 +76,16 @@ body{
     height: 300px;
     background-color: orange;
     display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 .container_banner{
-    margin: auto;
     height: 200px;  
     width: 55%;
     background-color: aqua;
     display: flex;
+ 
 
 }
 
@@ -106,13 +108,79 @@ body{
     height: 500px;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content:center;
 }
 
 .container-main_end{
-    margin: auto;
     background-color: #3161e0;
     height: 450px;  
     width: 55%;
 }
 /* #endregion section main end */
 
+/* #region columns footer */
+.container_footer {
+    background-color: var(--tb-footer);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.columns{
+    background-color: aqua;
+    height: 200px;  
+    width: 55%;
+    display: flex;
+}
+
+.col1 {
+    background-color: orange;
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.col2 {
+    background-color: green;
+    width: 15%;
+    height: 100%;
+    border: 1px solid black;
+}
+/* #endregion columns footer */
+
+/* #region banner footer */
+.section_footer {
+    margin-top: 1px;
+    background-color: var(--tb-footer);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+}
+
+.banner_registration {
+    background-color: orange;
+    height: 40px;   
+    width: 55%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo-banner{
+    background-color: aqua;
+    height: 12px;
+    width: 35px;
+}
+
+.registration-banner{
+    background-color: aqua;
+    height: 12px;
+    width: 35px;
+}
+/* #endregion banner footer */
